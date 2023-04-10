@@ -2,9 +2,11 @@ Step 1: reset your password/find your specific account name
   I. Login to https://sdacs.ucsd.edu/~icc/index.php to find your account name
   II. Follow the directions on https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view to reset your password from account lookup
   III. Wait a few minutes to hours for password reset to take place, can take up to 12 hours to initiate new password
+  IV. ![Image](Screenshot 2023-04-10 072953.jpg)
 
 Step 2: download/install visual studio code
   I. follow the instructions on  https://code.visualstudio.com/ to install visual studio code
+  II. ![Image](Screenshot 2023-04-10 073025.jpg)
 
 Step 3: install Git
   I. follow the instructions on https://gitforwindows.org/ to install Git
@@ -12,7 +14,8 @@ Step 3: install Git
 Step 4: set bash as the default terminal in visual studio code
   I. follow the instructions on 
      https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994 
-     to set bash as the default terminal
+     to set bash as the default terminal, click on the plus sign displayed for reference in the following image and select bash
+  II. ![Image](Screenshot 2023-04-10 073207.jpg)
 
 Step 5: connect to the assigned cse basement computer by ssh'ing your course username
   I. once selected, access the terminal and then input the following
@@ -20,6 +23,7 @@ Step 5: connect to the assigned cse basement computer by ssh'ing your course use
      but replace the zz with the corresponding letters in your CSE15l course specific account name
   II. If this is your first time logging in, select yes when asked if you want to continue connecting
   III. Input the password you selected as your reset password in step 1 II.
+  IV. ![Image](Screenshot 2023-04-10 073254.jpg)
 
 Step 6: input your commands
   I. use commands such as
