@@ -28,7 +28,8 @@ Step 5: connect to the assigned cse basement computer by ssh'ing your course use
   V. If you did not notice it originally, pay attention as the example image displays a type, it should be ssh NOT ssj
 
 Step 6: input your commands
-  I. use commands such as
+  I. ![Image](Screenshot 2023-04-10 074644.jpg) (image at the top as image would not be accepted below)
+  II. use commands such as
       cd ~
       cd
       ls -lat
@@ -37,5 +38,4 @@ Step 6: input your commands
       cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
       cat /home/linux/ieng6/cs15lsp23/public/hello.txt
       these commands will allow you to navigate and interface with both your own commuter, and the lab computer for which you have been assigned.  
-  II. ![Image](Screenshot 2023-04-10 074644.jpg)
   III. this is an example of the exit command which allows you to disconnect from the remotely accessed computer.
