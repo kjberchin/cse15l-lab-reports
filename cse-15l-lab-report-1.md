@@ -61,4 +61,5 @@ Step 5: connect to the assigned cse basement computer by ssh'ing your course use
      `ls <directory>` where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the
       abc corresponds to another user's course specific ID tag
      
-      these commands will allow you to navigate and interface with both your own commuter, and         the lab computer for which you have been assigned.  
+      these commands will allow you to navigate and interface with both your own commuter, 
+      and the lab computer for which you have been assigned.  
