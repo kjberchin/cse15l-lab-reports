@@ -57,7 +57,7 @@ Step 5: connect to the assigned cse basement computer by ssh'ing your course use
      `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
      ![Image](Screenshot 2023-04-20 171129.jpg)
      `cp /home/linux/ieng6/cs15lsp23/public/hello.txt`
-     ![Image](Screenshot 2023-04-10 073254.jpg)
+     ![Image](Screenshot 2023-04-20 172355.jpg)
      `ls <directory>` where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the
       abc corresponds to another user's course specific ID tag
      
