@@ -53,7 +53,7 @@ Step 5: connect to the assigned cse basement computer by ssh'ing your course use
   V. If you did not notice it originally, pay attention as the example image displays a type, it should be ssh NOT ssj
   
   VI. use commands such as
-     ![Image](Screenshot 2023-04-10 073254.jpg)
+     ![Image](Screenshot 2023-04-20 171106.jpg)
      `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
      ![Image](Screenshot 2023-04-10 073254.jpg)
      `cp /home/linux/ieng6/cs15lsp23/public/hello.txt`
