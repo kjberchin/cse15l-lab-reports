@@ -70,19 +70,21 @@ Class field values changed by request:
     import org.junit.*;
 
     public class ArrayTests {
-        @Test 
-        public void testReverseInPlace() {
-        int[] input1 = { 3 };
-        ArrayExamples.reverseInPlace(input1);
-        assertArrayEquals(new int[]{ 3 }, input1);
-        }
 
-      @Test
+      // failure test
       //succesfully reverses the first half of the list however leaves the second half unaltered because when it reaches index 2
       // it will not because it already reversed and updated at the first two indecies.  
+      @Test
       public void testReversedInPlace2() {
         int [] input2 = {1, 2, 3, 4};
         ArrayExamples.reverseInPlace(input2);
         assertArrayEquals(new int[]{4, 3, 2, 1}, input2);
       }
+        // succesful test
+        @Test 
+        public void testReverseInPlace() {
+        int[] input1 = { 3, 2 };
+        ArrayExamples.reverseInPlace(input1);
+        assertArrayEquals(new int[]{ 2, 3 }, input1);
+        }
     }
