@@ -83,8 +83,8 @@ Class field values changed by request:
         // succesful test
         @Test 
         public void testReverseInPlace() {
-        int[] input1 = { 3, 2 };
+        int[] input1 = {};
         ArrayExamples.reverseInPlace(input1);
-        assertArrayEquals(new int[]{ 2, 3 }, input1);
+        assertArrayEquals(new int[]{}, input1);
         }
     }
