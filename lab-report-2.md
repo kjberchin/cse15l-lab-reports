@@ -39,13 +39,13 @@ Relevant method arguments and fields:
 
 --The add-message argument is relevant as it is the correct command for the path as well as the string coming after the equals sign as that is what is displayed
 
---The returnString field is relevant as it is what is actually added into by the parameters array index 1, and what is displayed
+--The returnString field is relevant as it is what is actually added into by the parameters array index 1, and what is displayed, the example here is that returnString had the String "test" added to it
 
 Class field values changed by request:
 
--- The values that were changed were the URI as it was modified to accept an "argument" which was whatever String we wanted added to the displya, as well as the returnString field which was previously discussed.
+-- The values that were changed were the URI as it was modified to accept an "argument" which was whatever String we wanted added to the disply, as well as the returnString field which was previously discussed.  In this case, the addition of the word "test" after the equals in the URI was what was modified
 
-![Image](Screenshot 2023-04-23 185808.jpg)
+![Image](Screenshot 2023-04-23 185457.jpg)
 
 Methods being called:
 
@@ -57,8 +57,8 @@ Relevant method arguments and fields:
 
 --The add-message argument is relevant as it is the correct command for the path as well as the string coming after the equals sign as that is what is displayed
 
---The returnString field is relevant as it is what is actually added into by the parameters array index 1, and what is displayed
+--The returnString field is relevant as it is what is actually added into by the parameters array index 1, and what is displayed, the example here is that returnString had the String "again" added to it on top of the previously added "test"
 
 Class field values changed by request:
 
--- The values that were changed were the URI as it was modified to accept an "argument" which was whatever String we wanted added to the displya, as well as the returnString field which was previously discussed.
+-- The values that were changed were the URI as it was modified to accept an "argument" which was whatever String we wanted added to the disply, as well as the returnString field which was previously discussed. In this case, the addition of the word "again" after the equals in the URI was what was modified
