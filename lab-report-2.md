@@ -11,10 +11,6 @@
                 System.out.println("Path: " + url.getPath());
                 String[] parameters = url.getQuery().split("=");
                 returnString += parameters[1] + "\n";
-                // strList.add(parameters[1]);
-                // for (String i: strList){
-                //     returnString += i + "\n";
-                // }
                 return returnString;
             }
             return "404 Not Found!";
