@@ -66,6 +66,7 @@ Class field values changed by request:
 
 ----END OF PART 1----
 
+
     import static org.junit.Assert.*;
     import org.junit.*;
 
@@ -115,3 +116,8 @@ Class field values changed by request:
 --The issue present with the original method can be expressed symptom wise as only copying the first half of the array, then not the second, however the problem was that it would succesfully reverse the first half but then when doing `arr[arr.length - i - 1]` It was indexing the already mofified first half to decide the values for the second half of the array
 
 --The fix for it was to make a shallow copy array with the original items in it and when the actual reversing was taking place, having the reversed values be references of the copy array rather than the already modified original.
+
+
+----END OF PART 2----
+
+--Something I learned from lab 2 that I did not previoulsy know was that you can create your own local host website.  I had no idea that you could do it without a domain and that other people could access it.  Moreover, I did not know that being on the same wifi network would affect whether this is possible or not.
