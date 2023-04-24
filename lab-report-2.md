@@ -62,3 +62,6 @@ Relevant method arguments and fields:
 Class field values changed by request:
 
 -- The values that were changed were the URI as it was modified to accept an "argument" which was whatever String we wanted added to the disply, as well as the returnString field which was previously discussed. In this case, the addition of the word "again" after the equals in the URI was what was modified
+
+
+----END OF PART 1----
