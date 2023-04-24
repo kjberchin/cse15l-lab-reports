@@ -27,4 +27,38 @@
         }
     }
 
-![Image](Screenshot 2023-04-23 185430.jpg)
+![Image](Screenshot 2023-04-23 185808.jpg)
+
+Methods being called:
+
+--The main method to take my port number
+
+--The handleRequest method that takes my specific add-message path and the String with it
+
+Relevant method arguments and fields:
+
+--The add-message argument is relevant as it is the correct command for the path as well as the string coming after the equals sign as that is what is displayed
+
+--The returnString field is relevant as it is what is actually added into by the parameters array index 1, and what is displayed
+
+Class field values changed by request:
+
+-- The values that were changed were the URI as it was modified to accept an "argument" which was whatever String we wanted added to the displya, as well as the returnString field which was previously discussed.
+
+![Image](Screenshot 2023-04-23 185808.jpg)
+
+Methods being called:
+
+--The main method to take my port number
+
+--The handleRequest method that takes my specific add-message path and the String with it
+
+Relevant method arguments and fields:
+
+--The add-message argument is relevant as it is the correct command for the path as well as the string coming after the equals sign as that is what is displayed
+
+--The returnString field is relevant as it is what is actually added into by the parameters array index 1, and what is displayed
+
+Class field values changed by request:
+
+-- The values that were changed were the URI as it was modified to accept an "argument" which was whatever String we wanted added to the displya, as well as the returnString field which was previously discussed.
