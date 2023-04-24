@@ -113,6 +113,7 @@ Class field values changed by request:
           }
         }
     }
+
 --The issue present with the original method can be expressed symptom wise as only copying the first half of the array, then not the second, however the problem was that it would succesfully reverse the first half but then when doing `arr[arr.length - i - 1]` It was indexing the already mofified first half to decide the values for the second half of the array
 
 --The fix for it was to make a shallow copy array with the original items in it and when the actual reversing was taking place, having the reversed values be references of the copy array rather than the already modified original.
