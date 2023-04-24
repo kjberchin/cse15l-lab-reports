@@ -88,3 +88,30 @@ Class field values changed by request:
         assertArrayEquals(new int[]{55}, input1);
         }
     }
+    
+![Image](Screenshot 2023-04-23 192157.jpg)
+    
+    public class ArrayExamples {
+
+      // Changes the input array to be in reversed order
+      //BUGGY METHOD
+      static void reverseInPlaceBuggy(int[] arr) {
+        for(int i = 0; i < arr.length; i += 1) {
+          arr[i] = arr[arr.length - i - 1];
+        }
+      }
+
+        //FIXED METHOD
+        static void reverseInPlaceFixed(int[] arr){
+          int[] copyArray = new int[arr.length];
+          for (int i = 0; i < arr.length; i += 1) {
+            copyArray[i] = arr[i];
+          }
+          for(int i = 0; i < arr.length; i += 1) {
+            arr[i] = copyArray[arr.length - i - 1];
+          }
+        }
+    }
+--The issue present with the original method can be expressed symptom wise as only copying the first half of the array, then not the second, however the problem was that it would succesfully reverse the first half but then when doing `arr[arr.length - i - 1]` It was indexing the already mofified first half to decide the values for the second half of the array
+
+--The fix for it was to make a shallow copy array with the original items in it and when the actual reversing was taking place, having the reversed values be references of the copy array rather than the already modified original.
