@@ -63,9 +63,7 @@ Class field values changed by request:
 
 -- The values that were changed were the URI as it was modified to accept an "argument" which was whatever String we wanted added to the disply, as well as the returnString field which was previously discussed. In this case, the addition of the word "again" after the equals in the URI was what was modified
 
-
 ----END OF PART 1----
-
 
     import static org.junit.Assert.*;
     import org.junit.*;
@@ -117,7 +115,6 @@ Class field values changed by request:
 --The issue present with the original method can be expressed symptom wise as only copying the first half of the array, then not the second, however the problem was that it would succesfully reverse the first half but then when doing `arr[arr.length - i - 1]` It was indexing the already mofified first half to decide the values for the second half of the array
 
 --The fix for it was to make a shallow copy array with the original items in it and when the actual reversing was taking place, having the reversed values be references of the copy array rather than the already modified original.
-
 
 ----END OF PART 2----
 
