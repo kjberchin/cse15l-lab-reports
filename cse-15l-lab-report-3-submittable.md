@@ -12,7 +12,7 @@ output
 
 `911report/preface.txt`
 
-![Image](Screenshot 2023-05-04 142138)
+![Image](Screenshot 2023-05-04 142138.jpg)
 
 input
 
@@ -28,7 +28,7 @@ We can see clearly that the find command informs us when a file does not exist w
 
 Command line option 2 -- searching for files over x size
 
-![Image](Screenshot 2023-05-04 143326)
+![Image](Screenshot 2023-05-04 143326.jpg)
 
 input
 
@@ -38,7 +38,7 @@ output
 
 `NULL`
 
-![Image](Screenshot 2023-05-04 143345)
+![Image](Screenshot 2023-05-04 143345.jpg)
 
 input
 
@@ -70,7 +70,7 @@ However, when we look in the second image and change the size of our search from
 
 Command line option 3 -- searching for files created/modified within x time
 
-![Image](Screenshot 2023-05-04 144613)
+![Image](Screenshot 2023-05-04 144613.jpg)
 
 input
 
@@ -97,7 +97,7 @@ output
 911report/chapter-9.txt
 911report/preface.txt`
 
-![Image](Screenshot 2023-05-04 144624)
+![Image](Screenshot 2023-05-04 144624.jpg)
 
 input 
 
@@ -113,7 +113,7 @@ In the second image, we can see that when changing the time check to be 0.000001
 
 Command line option 4 -- searching for empty directories
 
-![Image](Screenshot 2023-05-04 150125)
+![Image](Screenshot 2023-05-04 150125.jpg)
 
 input
 
@@ -123,7 +123,7 @@ output
 
 `NULL`
 
-![Image](Screenshot 2023-05-04 150206)
+![Image](Screenshot 2023-05-04 150206.jpg)
 
 input
 
