@@ -1,4 +1,4 @@
-Find Command will be analyzed here
+The Find Command will be analyzed here
 
 Command line option 1 -- searching for files by name
 
