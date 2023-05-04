@@ -2,7 +2,7 @@ Find Command will be analyzed here
 
 Command line option 1 -- searching for files by name
 
-![Image](Screenshot 2023-05-04 142009)
+![Image](Screenshot 2023-05-04 142009.jpg)
 
 input
 
