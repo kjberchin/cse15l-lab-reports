@@ -1,4 +1,4 @@
-FOR THIS REPORT WE WILL BE ANALYZING THE "FIND" COMMAND
+Find Command will be analyzed here
 
 Command line option 1 -- searching for files by name
 
