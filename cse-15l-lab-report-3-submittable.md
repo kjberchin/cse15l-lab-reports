@@ -12,7 +12,7 @@ output
 
 `911report/preface.txt`
 
-![Image](Screenshot 2023-05-04 142138.jpg)
+![image](https://user-images.githubusercontent.com/130321865/236344637-f8e2a3eb-6607-4bce-b10e-2eb05396e846.png)
 
 input
 
@@ -28,7 +28,7 @@ We can see clearly that the find command informs us when a file does not exist w
 
 Command line option 2 -- searching for files over x size
 
-![Image](Screenshot 2023-05-04 143326.jpg)
+![image](https://user-images.githubusercontent.com/130321865/236344670-4028f8d0-39f7-4d0d-9fe8-c62c9f682066.png)
 
 input
 
@@ -38,7 +38,7 @@ output
 
 `NULL`
 
-![Image](Screenshot 2023-05-04 143345.jpg)
+![image](https://user-images.githubusercontent.com/130321865/236344710-63b52c06-6061-437a-9416-3c029ad73260.png)
 
 input
 
@@ -70,7 +70,7 @@ However, when we look in the second image and change the size of our search from
 
 Command line option 3 -- searching for files created/modified within x time
 
-![Image](Screenshot 2023-05-04 144613.jpg)
+![image](https://user-images.githubusercontent.com/130321865/236344752-b83f6bc4-08f2-409b-9f1c-a0670a2b416b.png)
 
 input
 
@@ -97,7 +97,7 @@ output
 911report/chapter-9.txt
 911report/preface.txt`
 
-![Image](Screenshot 2023-05-04 144624.jpg)
+![image](https://user-images.githubusercontent.com/130321865/236344790-b9f8640e-7a18-4370-9894-77a269afce0b.png)
 
 input 
 
@@ -113,7 +113,7 @@ In the second image, we can see that when changing the time check to be 0.000001
 
 Command line option 4 -- searching for empty directories
 
-![Image](Screenshot 2023-05-04 150125.jpg)
+![image](https://user-images.githubusercontent.com/130321865/236344832-5f1f26b1-cec6-4724-a273-3057beda3a2e.png)
 
 input
 
@@ -123,7 +123,7 @@ output
 
 `NULL`
 
-![Image](Screenshot 2023-05-04 150206.jpg)
+![image](https://user-images.githubusercontent.com/130321865/236344868-28dbe56c-d5a3-46f5-b94e-779bceea88d8.png)
 
 input
 
