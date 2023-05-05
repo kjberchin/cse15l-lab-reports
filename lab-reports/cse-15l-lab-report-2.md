@@ -43,7 +43,15 @@ Relevant method arguments and fields:
 
 Class field values changed by request:
 
--- The values that were changed were the URI as it was modified to accept an "argument" which was whatever String we wanted added to the disply, as well as the returnString field which was previously discussed.  In this case, the addition of the word "test" after the equals in the URI was what was modified
+-- The values that were changed were the URI.  Specifically, the handler first takes the path of the URI.  If that path only is a `/` then it simply returns the existing set number which starts at 0.  
+
+However, if this is not the case then it checks if the path for the URL contains `/increment` which it will then simply increase num by 1 and display the word number incremented.  
+
+However if this is not the case it will lastly check if the url contains `/add` and if so it will then set a string array variable as the query and then split that query down the equal sign with the part prior being `parameters[0]` and the part following being `parameters[1]` 
+
+If `parameters[0]` is count and `parameters[1]` is a string that can be parsed as a number, it will then do the following, it will parse the string `parameters[1]` as an integer and then increase the num variable by whatever that integer was by doing `num += Integer.parseInt(parameters[1]);` 
+
+This has the effect of checking firstly if the add command is in correct format with count = x, but it will also check if the x is a parseintable string and if so, it will add it to our num to be displayed.  
 
 ![Image](Screenshot 2023-04-23 185457.jpg)
 
