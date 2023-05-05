@@ -48,7 +48,7 @@ Class field values changed by request:
 
 However, if this is not the case then it checks if the path for the URL contains `/increment` which it will then simply increase num by 1 and display the word number incremented.  
 
-However if this is not the case it will lastly check if the url contains `/add` and if so it will then set a string array variable as the query and then split that query down the equal sign with the part prior being `parameters[0]` and the part following being `parameters[1]` 
+However if this is not the case it will lastly check if the url contains `/add` and if so it will then set a string array variable as the query seperated into two parts using the `.getQuery()` method which will split that query down the equal sign with the part prior being `parameters[0]` and the part following being `parameters[1]` 
 
 If `parameters[0]` is count and `parameters[1]` is a string that can be parsed as a number, it will then do the following, it will parse the string `parameters[1]` as an integer and then increase the num variable by whatever that integer was by doing `num += Integer.parseInt(parameters[1]);` 
 
