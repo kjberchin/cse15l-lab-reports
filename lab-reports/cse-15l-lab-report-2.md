@@ -101,15 +101,15 @@ Class field values changed by request:
     `
     public class ArrayExamples {
 
-      Changes the input array to be in reversed order
-      BUGGY METHOD
+      //Changes the input array to be in reversed order
+      //BUGGY METHOD
       static void reverseInPlace(int[] arr) {
         for(int i = 0; i < arr.length; i += 1) {
           arr[i] = arr[arr.length - i - 1];
         }
       }
     
-    FIXED METHOD
+    //FIXED METHOD
     static void reverseInPlace(int[] arr){
     int placeholder = 0;
       for (int i = 0; i < arr.length/2; i += 1) {
