@@ -63,7 +63,7 @@ Class field values changed by request:
 
 -- The values that were changed were the URI as it was modified to accept an "argument" which was whatever String we wanted added to the disply, as well as the returnString field which was previously discussed. In this case, the addition of the word "again" after the equals in the URI was what was modified
 
-----END OF PART 1----
+# ----END OF PART 1----
 
     import static org.junit.Assert.*;
     import org.junit.*;
@@ -116,6 +116,6 @@ Class field values changed by request:
 
 --The fix for it was to make a shallow copy array with the original items in it and when the actual reversing was taking place, having the reversed values be references of the copy array rather than the already modified original.
 
-----END OF PART 2----
+# ----END OF PART 2----
 
 --Something I learned from lab 2 that I did not previoulsy know was that you can create your own local host website.  I had no idea that you could do it without a domain and that other people could access it.  Moreover, I did not know that being on the same wifi network would affect whether this is possible or not.
