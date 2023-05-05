@@ -98,32 +98,32 @@ Class field values changed by request:
     }
     
 ![Screenshot 2023-04-23 192157](https://user-images.githubusercontent.com/130321865/236385958-061dabb2-9646-444c-ac5e-35b4b6815315.jpg)
-    
+    `
     public class ArrayExamples {
 
-      // Changes the input array to be in reversed order
-      //BUGGY METHOD
-      static void reverseInPlaceBuggy(int[] arr) {
+      Changes the input array to be in reversed order
+      BUGGY METHOD
+      static void reverseInPlace(int[] arr) {
         for(int i = 0; i < arr.length; i += 1) {
           arr[i] = arr[arr.length - i - 1];
         }
       }
-
-        //FIXED METHOD
-        static void reverseInPlaceFixed(int[] arr){
-          int[] copyArray = new int[arr.length];
-          for (int i = 0; i < arr.length; i += 1) {
-            copyArray[i] = arr[i];
-          }
-          for(int i = 0; i < arr.length; i += 1) {
-            arr[i] = copyArray[arr.length - i - 1];
-          }
-        }
+    
+    FIXED METHOD
+    static void reverseInPlace(int[] arr){
+    int placeholder = 0;
+      for (int i = 0; i < arr.length/2; i += 1) {
+        placeholder = arr[i];
+        arr[i] = arr[i*-1 -1];
+        arr[i*-1 -1] = placeholder
+      }
     }
+}
+ `
 
 --The issue present with the original method can be expressed symptom wise as only copying the first half of the array, then not the second, however the problem was that it would succesfully reverse the first half but then when doing `arr[arr.length - i - 1]` It was indexing the already mofified first half to decide the values for the second half of the array
 
---The fix for it was to make a shallow copy array with the original items in it and when the actual reversing was taking place, having the reversed values be references of the copy array rather than the already modified original.
+--The fix for it that I made in my new draft was opposed to making a shallow copy array, I used a placeholder integer variable in order to create a spot to store a value before swapping it.  Additionally I would only iterate through half of the list and swap the index using the placeholder variable, by swapping the first index with the last, second index with second to last, etc by usingnegativenumbers to index, and storing the positive valued indexes in the placeholder variable, swapping the value at that index, and then replacing the value at the index used for swapping.
 
 # ----END OF PART 2----
 
