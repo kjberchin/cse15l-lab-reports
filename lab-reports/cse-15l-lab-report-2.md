@@ -27,7 +27,8 @@
         }
     }
 
-![Image](Screenshot 2023-04-23 185808.jpg)
+![Screenshot 2023-04-23 185808](https://user-images.githubusercontent.com/130321865/236385843-b58a9057-35dd-422f-a838-bb20452f8ee2.jpg)
+
 
 Methods being called:
 
@@ -53,7 +54,7 @@ If `parameters[0]` is count and `parameters[1]` is a string that can be parsed a
 
 This has the effect of checking firstly if the add command is in correct format with count = x, but it will also check if the x is a parseintable string and if so, it will add it to our num to be displayed.  
 
-![Image](Screenshot 2023-04-23 185457.jpg)
+![Screenshot 2023-04-23 185457](https://user-images.githubusercontent.com/130321865/236385913-ac9297ae-07ff-49f2-87fd-83999aea9f03.jpg)
 
 Methods being called:
 
@@ -96,7 +97,7 @@ Class field values changed by request:
         }
     }
     
-![Image](Screenshot 2023-04-23 192157.jpg)
+![Screenshot 2023-04-23 192157](https://user-images.githubusercontent.com/130321865/236385958-061dabb2-9646-444c-ac5e-35b4b6815315.jpg)
     
     public class ArrayExamples {
 
