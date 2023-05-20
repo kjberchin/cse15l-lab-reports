@@ -4,7 +4,7 @@ The Find Command will be analyzed here
 
 Source Found
 
-https://adamtheautomator.com/bash-find/#:~:text=The%20Bash%20find%20Command%20101,-Finding%20a%20file&text=The%20find%20command%20allows%20you,a%20folder%20on%20your%20computer.
+[Source](https://adamtheautomator.com/bash-find/#:~:text=The%20Bash%20find%20Command%20101,-Finding%20a%20file&text=The%20find%20command%20allows%20you,a%20folder%20on%20your%20computer.)
 
 ![Screenshot 2023-05-19 171604](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/b643c851-1a09-4a27-b589-76c77744e8c1)
 
