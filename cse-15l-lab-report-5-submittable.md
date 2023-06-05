@@ -10,15 +10,17 @@ When I try to use the terminal to run my program to create a new java file with 
 
 Here is my error message
 
-![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/7ebe7def-fd18-4e6f-a58d-541ffc1c1677)
+![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/38fcfffb-b227-46a9-a29a-890400430ff1)
 
 and my code
 
-![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/ec5a22e9-d92c-4eaf-bde5-2ea1a9e3c2ab)
+![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/09d23142-fd4e-47d7-8011-9d6263c62050)
+
+![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/642a13e8-1e55-4fe0-b0f8-07e62d08bfa2)
 
 ## Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
 
-I am running no commands other than using the javac and java commands to run my programs `main` method.  The input from the command line argument is just the 3 strings "racecar" " = " "racecar".  The working directory is in the screenshots above.
+I am running no commands other than using the `bash Anagram_script.sh` command to run `javac Anagram.java` and `java Anagram racecar = racecar` to run the program's `main` method.  The input from the command line argument in the `java Anagram` command is just the 3 strings "racecar" " = " "racecar".  The working directory is in the screenshots above.
 
 # TA response
 
@@ -53,11 +55,15 @@ Directory
 
 Directory and file structure screenshot
 
-![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/04d9272e-37ab-42ba-a3cd-cade12a55bd0)
+![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/0178ba06-91bc-4e7d-9cf4-3ad021dc2fc3)
+
+(directory is at the bottom of screenshot, file structure on screen left side)
 
 ## 2. Code contents of before/after fix
 
 Before
+
+java code
 
 `import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -91,6 +97,20 @@ public class Anagram {
         }
     }
 }`
+
+bash script(unchanged before and after)
+
+`javac Anagram.java
+
+if [ $? -eq 0 ]; then
+    echo "Compilation successful. Running the Java program..."
+    echo ""
+
+
+    java Anagram racecar = racecar
+else
+    echo "Compilation failed. Please check the Java source code and try again."
+fi`
 
 After
 
@@ -129,9 +149,15 @@ public class Anagram {
 
 ## Command Line Arguments Ran (in order)
 
+commands ran in bash script
+
 `$ javac Anagram.java`
 
 `$ java Anagram racecar = racecar`
+
+bash script 
+
+`$ bash Anagram_script.sh`
 
 Additional argument ran to find file during error
 
@@ -139,7 +165,7 @@ Additional argument ran to find file during error
 
 ## Edit to fix bug
 
-Remove the `directoryPath` variable seen in the screenshot, in order to create the file directly in the current-nonspecified directory.
+Remove the `directoryPath` variable in the java file seen in the screenshot, in order to create the file directly in the current-nonspecified directory.
 
 # Reflection Part 2
 
