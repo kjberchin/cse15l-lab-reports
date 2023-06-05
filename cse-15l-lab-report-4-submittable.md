@@ -41,7 +41,7 @@ Keys Pressed:
 
 Summary
 
-first I opened ListExamples.java with vim, then I had to go left 6 lines to reach the neccesary index to change, starting at the number 1 I used dw to delete it to the end of the word, then I used i to insert the 2 and a space to complete the command fix, then :wq saved the file changes
+first I opened ListExamples.java with vim, then I clicked on the end of the line I wanted to edit and had to go left 6 characters to reach the neccesary index to change, starting at the number 1 I used dw to delete it to the end of the word, then I used i to insert the 2 and a space to complete the command fix, then :wq saved the file changes
 
 ![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/cde1e6da-7511-44b4-aeb9-ec40c6315053)
 
