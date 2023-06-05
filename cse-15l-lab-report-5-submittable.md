@@ -16,12 +16,6 @@ and my code
 
 ![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/ec5a22e9-d92c-4eaf-bde5-2ea1a9e3c2ab)
 
-
-Here is my terminal
-
-![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/2c91faa8-a1c8-4554-aadd-f4fdb6499e77)
-
-
 ## Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
 
 I am running no commands other than using the javac and java commands to run my programs `main` method.  The input from the command line argument is just the 3 strings "racecar" " = " "racecar".  The working directory is in the screenshots above.
