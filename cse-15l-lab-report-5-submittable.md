@@ -6,10 +6,13 @@ Windows, vscode bash terminal
 
 ## Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
 
-When I try to use the terminal to run my program to create a new java file with 3 samples of text, I am receiving the following error in the screenshots below, I have the proper main file, I am in the right directory that the code is referencing but I cant find the file despite the error.
+When I try to use the terminal to run my program to create a new java file with 3 samples of text, I am receiving the following error in the screenshots below, I have the proper main file, I am in the right directory that the code is referencing but I cant find the file despite the error.  I believe that the likely error is that the file has been created in another directory and that the intended directory path is being substituted as the file name.
 
-Here is my code
+Here is my error message
 
+![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/7ebe7def-fd18-4e6f-a58d-541ffc1c1677)
+
+and my code
 
 ![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/ec5a22e9-d92c-4eaf-bde5-2ea1a9e3c2ab)
 
@@ -39,7 +42,7 @@ However when I changed the code by removing the specific directory that worked a
 
 Code
 
-![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/6b99ac1c-e621-4f40-9b09-fe1828afb45c)
+![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/a9566baf-da6a-4501-8541-86061f0b9f60)
 
 Terminal
 
@@ -50,7 +53,13 @@ Terminal
 
 Directory for terminal commands and code file:
 
+Directory
+
 `/c/Users/nerdb/Desktop/CSE-stuff/CSE15L/lab-report-5/wavelet`
+
+Directory and file structure screenshot
+
+![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/04d9272e-37ab-42ba-a3cd-cade12a55bd0)
 
 ## 2. Code contents of before/after fix
 
