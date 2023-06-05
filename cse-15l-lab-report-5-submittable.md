@@ -42,7 +42,7 @@ Code
 
 Terminal
 
-![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/ef822d00-ff22-45ce-bef2-2d7d3f0226eb)
+![image](https://github.com/kjberchin/cse15l-lab-reports/assets/130321865/03ce7a40-6173-46e7-8af6-ed8e3445dd00)
 
 # Setup information
 ## 1.
