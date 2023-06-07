@@ -98,11 +98,11 @@ public class Anagram {
         }
     }
 }
-`
+```
 
 bash script(unchanged before and after)
 
-`
+```
 javac Anagram.java
 
 if [ $? -eq 0 ]; then
