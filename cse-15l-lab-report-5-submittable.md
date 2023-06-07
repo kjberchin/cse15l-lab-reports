@@ -65,7 +65,7 @@ Before
 
 java code
 
-`
+```
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -114,11 +114,11 @@ if [ $? -eq 0 ]; then
 else
     echo "Compilation failed. Please check the Java source code and try again."
 fi
-`
+```
 
 After
 
-`
+```
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -150,7 +150,7 @@ public class Anagram {
         }
     }
 }
-`
+```
 
 ## Command Line Arguments Ran (in order)
 
