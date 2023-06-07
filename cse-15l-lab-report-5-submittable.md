@@ -65,7 +65,8 @@ Before
 
 java code
 
-`import java.io.BufferedWriter;
+`
+import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 public class Anagram {
@@ -96,11 +97,13 @@ public class Anagram {
             e.printStackTrace();
         }
     }
-}`
+}
+`
 
 bash script(unchanged before and after)
 
-`javac Anagram.java
+`
+javac Anagram.java
 
 if [ $? -eq 0 ]; then
     echo "Compilation successful. Running the Java program..."
@@ -110,11 +113,13 @@ if [ $? -eq 0 ]; then
     java Anagram racecar = racecar
 else
     echo "Compilation failed. Please check the Java source code and try again."
-fi`
+fi
+`
 
 After
 
-`import java.io.BufferedWriter;
+`
+import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 public class Anagram {
